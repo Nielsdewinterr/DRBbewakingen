@@ -1,0 +1,9 @@
+<HTML>
+<HEAD>
+<TITLE>Binnengekomen aanvragen</TITLE>
+</HEAD>
+<BODY>
+$query = mysql_query("SELECT * FROM Klanten); 
+$row = mysql_fetch_array($query) or die(mysql_error());
+</BODY>
+</HTML>
